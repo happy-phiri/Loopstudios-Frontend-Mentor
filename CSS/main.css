@@ -31,7 +31,7 @@ p {
     font-weight: 700;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 35px;
     }
@@ -40,7 +40,7 @@ p {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     h1 {
         font-size: 30px;
     }
@@ -48,7 +48,7 @@ p {
 
 /* TOP HEADER */
 .top-header {
-    background-image: url(/images/desktop/image-hero.jpg);
+    background-image: url("/images/desktop/image-hero.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -109,7 +109,7 @@ nav {
     display: none;
 }
 
-@media  screen and (min-width: 992px) {
+@media (min-width: 992px) {
     nav {
         display: flex;
         flex-wrap: nowrap;
@@ -126,7 +126,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 425px){
+@media (max-width: 425px){
     .navbar-links {
         padding-top: 45px;
         padding-bottom: 55px;
@@ -146,18 +146,18 @@ nav {
     line-height: 1.1;
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
     .hero-container {
         margin: 50px 120px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     header article {
         padding: 80px 35px;
     }
     .top-header {
-        background-image: url(/images/mobile/image-hero.jpg);
+        background-image: url("/images/mobile/image-hero.jpg");
     }
     .hero-container {
         margin: 50px auto;
@@ -202,7 +202,7 @@ nav {
     line-height: 1.2;
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
     .about-container {
         padding: 50px 120px;
     }
@@ -220,7 +220,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     .about-container {
         padding: 50px 20px 10px;
         text-align: center;
@@ -306,7 +306,7 @@ nav {
     height: 100%;
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
     .creations-container {
         padding: 50px 120px;
     }
@@ -328,7 +328,7 @@ nav {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media (max-width: 425px) {
     .creations-header {
         text-align: center;
         justify-content: center;
@@ -346,7 +346,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 425px) {
+@media (min-width: 425px) {
     .see-all2 {
         display: none;
     }
@@ -394,19 +394,19 @@ footer section ul:nth-child(1), .page-links ul {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     footer {
         padding: 25px 35px;
     }
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     footer {
         padding: 25px 120px;
     }
 }
 
-@media screen and (max-width: 568px) {
+@media (max-width: 568px) {
     footer {
         padding: 30px 0;
         text-align: center;
