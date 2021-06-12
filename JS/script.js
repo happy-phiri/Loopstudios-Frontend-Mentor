@@ -18,13 +18,13 @@ window.addEventListener("DOMContentLoaded", () => {
 
 window.addEventListener("DOMContentLoaded", () => {
     if (viewWindow < 425){
-        document.querySelector(".deep-earth").src = "/images/mobile/image-deep-earth.jpg";
-        document.querySelector(".arcade").src = "/images/mobile/image-night-arcade.jpg";
-        document.querySelector(".soccer").src = "/images/mobile/image-soccer-team.jpg";
-        document.querySelector(".grid").src = "/images/mobile/image-grid.jpg";
-        document.querySelector(".above").src = "/images/mobile/image-from-above.jpg";
-        document.querySelector(".pocket").src = "/images/mobile/image-pocket-borealis.jpg";
-        document.querySelector(".curiosity").src = "/images/mobile/image-curiosity.jpg";
-        document.querySelector(".fisheye").src = "/images/mobile/image-fisheye.jpg";
+        document.querySelector(".deep-earth").src = "./images/mobile/image-deep-earth.jpg";
+        document.querySelector(".arcade").src = "./images/mobile/image-night-arcade.jpg";
+        document.querySelector(".soccer").src = "./images/mobile/image-soccer-team.jpg";
+        document.querySelector(".grid").src = "./images/mobile/image-grid.jpg";
+        document.querySelector(".above").src = "./images/mobile/image-from-above.jpg";
+        document.querySelector(".pocket").src = "./images/mobile/image-pocket-borealis.jpg";
+        document.querySelector(".curiosity").src = "./images/mobile/image-curiosity.jpg";
+        document.querySelector(".fisheye").src = "./images/mobile/image-fisheye.jpg";
     }
 })
