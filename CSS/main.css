@@ -146,12 +146,6 @@ nav {
     line-height: 1.1;
 }
 
-@media screen and (min-width: 992px) {
-    .hero-container {
-        margin: 50px 120px;
-    }
-}
-
 @media screen and (max-width: 425px) {
     header article {
         padding: 80px 35px;
@@ -162,6 +156,12 @@ nav {
     .hero-container {
         margin: 50px auto;
         max-width: fit-content;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .hero-container {
+        margin: 50px 120px;
     }
 }
 
